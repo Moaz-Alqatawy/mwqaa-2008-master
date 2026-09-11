@@ -1,0 +1,2 @@
+- [Digital universe experience](digital-universe.md) — keep the space finale lightweight and CSS-rendered for smooth phone performance.
+- [Workspace integrity](workspace-integrity.md) — validate manifests and build configs early when a snapshot may contain duplicated blocks.

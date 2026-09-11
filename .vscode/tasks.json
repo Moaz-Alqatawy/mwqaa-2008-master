@@ -1,0 +1,26 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Start Birthday Love",
+            "type": "process",
+            "command": "pnpm.cmd",
+            "args": ["--filter", "@workspace/birthday-love", "dev"],
+            "options": {
+                "cwd": "${workspaceFolder}/mwqaa-2008"
+            },
+            "isBackground": true,
+            "problemMatcher": {
+                "owner": "custom",
+                "pattern": {
+                    "regexp": ".*"
+                },
+                "background": {
+                    "activeOnStart": true,
+                    "beginsPattern": ".*",
+                    "endsPattern": "Local:.*http://localhost:3000"
+                }
+            }
+        }
+    ]
+}
